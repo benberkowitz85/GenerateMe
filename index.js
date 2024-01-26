@@ -70,5 +70,5 @@ function init() {
     });
 }
 
-// Function call to initialize app
+// Function call to start app
 init();

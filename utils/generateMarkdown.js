@@ -7,8 +7,7 @@ function renderLicenseBadge(license) {
     return " ";
   }
   
-  // Function creates a link to the license within the README.md. If no license is chosen, an empty string is returned.
-  function renderLicenseLink(license) {
+  // Function creates a link to the license within the README.md. 
     if (license !== "None") {
       return `\n* [License](#license)\n` ;
     }
@@ -17,7 +16,7 @@ function renderLicenseBadge(license) {
   
   
   
-  // Function creates the license section. License link directs to this section. If no license is chosen, an empty string is returned.
+  // Function creates the license section.
   function renderLicenseSection(license) {
       if (license !== "None") {
         return `## License 
@@ -27,7 +26,7 @@ function renderLicenseBadge(license) {
       return " "
   }
   
-  // Using template literal and the data from the user, this function generates the README.md. Forward slashes are used next to backticks below in order to create code block sections in the README and avoid interrupting the template literal. The renderLicense functions are called. 
+  // Use template and data from the user, this wi;; generate the README.md. 
   
   function generateMarkdown(data) {
     return `# ${data.title} 
@@ -79,7 +78,7 @@ function renderLicenseBadge(license) {
   
   Any questions about the repository? Feel free to open an issue, or send me an email at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
   
-  Thank you for stopping by! 
+  Thanks for stopping by and stay classy, planet earth! 
   
   `;
   }
