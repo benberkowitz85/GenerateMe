@@ -1,5 +1,16 @@
 #GenerateMe
 
+Description 
+
+This will allow the user to create a READMe file within Visual Studio Code. it will generate inside the folder. 
+
+Before Use: 
+
+please have node installed on your desktop, to install within visual studio code please enter the following command in the terminal 
+
+NPM install
+
+
 User Story
 
 AS A developer I WANT a README generator SO THAT I can quickly create a professional README for a new project
