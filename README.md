@@ -24,3 +24,5 @@ https://studio.youtube.com/video/Xh8lUVzEA2E/edit
 
 
 Github: https://github.com/benberkowitz85/GenerateMe
+
+Thanks as always to Kai, Carl, my group for guidance and assistance. Thanks to google and youtube as well for guided walkthroughs when I was stuck. 
